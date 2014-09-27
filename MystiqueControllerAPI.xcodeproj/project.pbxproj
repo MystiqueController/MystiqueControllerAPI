@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30B908919D71B6D00B39E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30B908819D71B6D00B39E97 /* Foundation.framework */; };
+		A30B908E19D71B6D00B39E97 /* MystiqueControllerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A30B908D19D71B6D00B39E97 /* MystiqueControllerAPI.h */; };
+		A30B909019D71B6D00B39E97 /* MystiqueControllerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A30B908F19D71B6D00B39E97 /* MystiqueControllerAPI.m */; };
+		A30B909719D71B6D00B39E97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30B909619D71B6D00B39E97 /* XCTest.framework */; };
+		A30B909819D71B6D00B39E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30B908819D71B6D00B39E97 /* Foundation.framework */; };
+		A30B909A19D71B6D00B39E97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30B909919D71B6D00B39E97 /* UIKit.framework */; };
+		A30B909D19D71B6D00B39E97 /* libMystiqueControllerAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30B908519D71B6D00B39E97 /* libMystiqueControllerAPI.a */; };
+		A30B90A319D71B6D00B39E97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A30B90A119D71B6D00B39E97 /* InfoPlist.strings */; };
+		A30B90A519D71B6D00B39E97 /* MystiqueControllerAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30B90A419D71B6D00B39E97 /* MystiqueControllerAPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30B909B19D71B6D00B39E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30B907D19D71B6D00B39E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30B908419D71B6D00B39E97;
+			remoteInfo = MystiqueControllerAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A30B908319D71B6D00B39E97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A30B908E19D71B6D00B39E97 /* MystiqueControllerAPI.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A30B908519D71B6D00B39E97 /* libMystiqueControllerAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMystiqueControllerAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30B908819D71B6D00B39E97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A30B908C19D71B6D00B39E97 /* MystiqueControllerAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MystiqueControllerAPI-Prefix.pch"; sourceTree = "<group>"; };
+		A30B908D19D71B6D00B39E97 /* MystiqueControllerAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MystiqueControllerAPI.h; sourceTree = "<group>"; };
+		A30B908F19D71B6D00B39E97 /* MystiqueControllerAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MystiqueControllerAPI.m; sourceTree = "<group>"; };
+		A30B909519D71B6D00B39E97 /* MystiqueControllerAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MystiqueControllerAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30B909619D71B6D00B39E97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A30B909919D71B6D00B39E97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A30B90A019D71B6D00B39E97 /* MystiqueControllerAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MystiqueControllerAPITests-Info.plist"; sourceTree = "<group>"; };
+		A30B90A219D71B6D00B39E97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A30B90A419D71B6D00B39E97 /* MystiqueControllerAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MystiqueControllerAPITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30B908219D71B6D00B39E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30B908919D71B6D00B39E97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30B909219D71B6D00B39E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30B909719D71B6D00B39E97 /* XCTest.framework in Frameworks */,
+				A30B909A19D71B6D00B39E97 /* UIKit.framework in Frameworks */,
+				A30B909819D71B6D00B39E97 /* Foundation.framework in Frameworks */,
+				A30B909D19D71B6D00B39E97 /* libMystiqueControllerAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30B907C19D71B6D00B39E97 = {
+			isa = PBXGroup;
+			children = (
+				A30B908A19D71B6D00B39E97 /* MystiqueControllerAPI */,
+				A30B909E19D71B6D00B39E97 /* MystiqueControllerAPITests */,
+				A30B908719D71B6D00B39E97 /* Frameworks */,
+				A30B908619D71B6D00B39E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30B908619D71B6D00B39E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30B908519D71B6D00B39E97 /* libMystiqueControllerAPI.a */,
+				A30B909519D71B6D00B39E97 /* MystiqueControllerAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30B908719D71B6D00B39E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30B908819D71B6D00B39E97 /* Foundation.framework */,
+				A30B909619D71B6D00B39E97 /* XCTest.framework */,
+				A30B909919D71B6D00B39E97 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30B908A19D71B6D00B39E97 /* MystiqueControllerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A30B908D19D71B6D00B39E97 /* MystiqueControllerAPI.h */,
+				A30B908F19D71B6D00B39E97 /* MystiqueControllerAPI.m */,
+				A30B908B19D71B6D00B39E97 /* Supporting Files */,
+			);
+			path = MystiqueControllerAPI;
+			sourceTree = "<group>";
+		};
+		A30B908B19D71B6D00B39E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A30B908C19D71B6D00B39E97 /* MystiqueControllerAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A30B909E19D71B6D00B39E97 /* MystiqueControllerAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				A30B90A419D71B6D00B39E97 /* MystiqueControllerAPITests.m */,
+				A30B909F19D71B6D00B39E97 /* Supporting Files */,
+			);
+			path = MystiqueControllerAPITests;
+			sourceTree = "<group>";
+		};
+		A30B909F19D71B6D00B39E97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A30B90A019D71B6D00B39E97 /* MystiqueControllerAPITests-Info.plist */,
+				A30B90A119D71B6D00B39E97 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30B908419D71B6D00B39E97 /* MystiqueControllerAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30B90A819D71B6D00B39E97 /* Build configuration list for PBXNativeTarget "MystiqueControllerAPI" */;
+			buildPhases = (
+				A30B908119D71B6D00B39E97 /* Sources */,
+				A30B908219D71B6D00B39E97 /* Frameworks */,
+				A30B908319D71B6D00B39E97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MystiqueControllerAPI;
+			productName = MystiqueControllerAPI;
+			productReference = A30B908519D71B6D00B39E97 /* libMystiqueControllerAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A30B909419D71B6D00B39E97 /* MystiqueControllerAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30B90AB19D71B6D00B39E97 /* Build configuration list for PBXNativeTarget "MystiqueControllerAPITests" */;
+			buildPhases = (
+				A30B909119D71B6D00B39E97 /* Sources */,
+				A30B909219D71B6D00B39E97 /* Frameworks */,
+				A30B909319D71B6D00B39E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30B909C19D71B6D00B39E97 /* PBXTargetDependency */,
+			);
+			name = MystiqueControllerAPITests;
+			productName = MystiqueControllerAPITests;
+			productReference = A30B909519D71B6D00B39E97 /* MystiqueControllerAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30B907D19D71B6D00B39E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mystique Controller";
+			};
+			buildConfigurationList = A30B908019D71B6D00B39E97 /* Build configuration list for PBXProject "MystiqueControllerAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A30B907C19D71B6D00B39E97;
+			productRefGroup = A30B908619D71B6D00B39E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30B908419D71B6D00B39E97 /* MystiqueControllerAPI */,
+				A30B909419D71B6D00B39E97 /* MystiqueControllerAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30B909319D71B6D00B39E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30B90A319D71B6D00B39E97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30B908119D71B6D00B39E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30B909019D71B6D00B39E97 /* MystiqueControllerAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30B909119D71B6D00B39E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30B90A519D71B6D00B39E97 /* MystiqueControllerAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30B909C19D71B6D00B39E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30B908419D71B6D00B39E97 /* MystiqueControllerAPI */;
+			targetProxy = A30B909B19D71B6D00B39E97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A30B90A119D71B6D00B39E97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30B90A219D71B6D00B39E97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30B90A619D71B6D00B39E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A30B90A719D71B6D00B39E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A30B90A919D71B6D00B39E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MystiqueControllerAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MystiqueControllerAPI/MystiqueControllerAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A30B90AA19D71B6D00B39E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MystiqueControllerAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MystiqueControllerAPI/MystiqueControllerAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A30B90AC19D71B6D00B39E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MystiqueControllerAPI/MystiqueControllerAPI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MystiqueControllerAPITests/MystiqueControllerAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A30B90AD19D71B6D00B39E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MystiqueControllerAPI/MystiqueControllerAPI-Prefix.pch";
+				INFOPLIST_FILE = "MystiqueControllerAPITests/MystiqueControllerAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30B908019D71B6D00B39E97 /* Build configuration list for PBXProject "MystiqueControllerAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30B90A619D71B6D00B39E97 /* Debug */,
+				A30B90A719D71B6D00B39E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30B90A819D71B6D00B39E97 /* Build configuration list for PBXNativeTarget "MystiqueControllerAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30B90A919D71B6D00B39E97 /* Debug */,
+				A30B90AA19D71B6D00B39E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A30B90AB19D71B6D00B39E97 /* Build configuration list for PBXNativeTarget "MystiqueControllerAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30B90AC19D71B6D00B39E97 /* Debug */,
+				A30B90AD19D71B6D00B39E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30B907D19D71B6D00B39E97 /* Project object */;
+}
